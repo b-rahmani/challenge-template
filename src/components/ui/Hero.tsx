@@ -15,6 +15,7 @@ const Hero = () => {
                 <Image
                     src={working}
                     alt='working'
+                    priority
                     className='absolute top-0 start-0 md:translate-x-[25%] w-full h-full z-10'
                 />
             </div>
