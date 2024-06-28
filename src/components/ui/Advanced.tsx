@@ -1,6 +1,8 @@
 import Shorter from "@/components/ui/Shorter";
 import AdvanceCard from "@/components/ui/AdvanceCard";
 import Customizable from "@/images/customizable";
+import Recognition from "@/images/recognition";
+import Record from "@/images/records";
 
 const Advanced = () => {
     return (
@@ -16,13 +18,13 @@ const Advanced = () => {
                         heading="Brand Recognition"
                         content="Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content."
                     >
-                        <Customizable />
+                        <Recognition />
                     </AdvanceCard>
                     <AdvanceCard
                         heading="Brand Recognition"
                         content="Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content."
                         className="mt-8">
-                        <Customizable />
+                        <Record />
                     </AdvanceCard>
                     <AdvanceCard
                         heading="Brand Recognition"
