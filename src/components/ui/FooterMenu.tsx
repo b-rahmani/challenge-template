@@ -16,6 +16,7 @@ const FooterMenu = () => {
                     {
                         menu.child?.map((childMenu: Menu) => <Link
                             href={childMenu.link}
+                            key={childMenu.id}
                             className="text-white/50 text-sm"
                         >
                             {childMenu.name}

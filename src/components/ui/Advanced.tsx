@@ -8,7 +8,7 @@ const Advanced = () => {
     return (
         <div className="bg-background">
             <Shorter />
-            <div className="container text-center -mt-8 pb-10">
+            <div className="container text-center pt-2 pb-10">
                 <h2 className="text-2xl font-bold text-black">Advanced Statics</h2>
                 <p className="text-lg font-bold text-black/50 py-4">
                     Track how your links are performing across the web with our advanced statics dashboard
